@@ -1,4 +1,4 @@
-# css-tricks
+# css-illustrations
 
 Designing illustrations with CSS.
 

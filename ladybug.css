@@ -1,0 +1,187 @@
+body {
+    background: whitesmoke;
+  }
+
+  
+.branch{  
+    width: 500px;
+    height: 35px;
+    background: rgb(93, 34, 9);
+    top:50%;
+    left:40%;
+    transform: translate(-50%,-50%);
+    position:absolute;
+    z-index:1;
+    top:135px;
+
+}
+
+.container{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:flex;
+}
+
+.ladybug .head{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px 10px 5px 5px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background: black;
+    position:relative;
+   top:95px;
+   left:18px;
+  }
+
+  .ladybug .antenna1{
+    width: 20px;
+    height: 3px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:  rgb(0, 0, 0);
+    position:relative;
+    top:108px;
+    left:35px;
+    
+}
+
+.ladybug .antenna2{
+    width: 20px;
+    height: 3px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:  rgb(0, 0, 0);
+    position:relative;
+    top:100px;
+    left:30px;
+    
+}
+.ladybug .headpiece{
+    width: 40px;
+    height: 30px;
+    border-radius: 15px 15px 0 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(29, 29, 29);
+    position:relative;
+    top:65px;
+    right:15px;
+  }
+
+  .ladybug .bug-body{
+    width: 90px;
+    height: 70px;
+    border-radius: 50px 50px 0 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:  rgb(173, 3, 3);
+    background-image: radial-gradient(#fafafa 28%, transparent 20%);
+    background-position: 25px 0px, 0px 0px;
+    background-size: 37px 35px;
+    position:relative;
+    top:10px;
+    right:90px;
+  }
+
+  .ladybug .front-leg{
+    width: 25px;
+    height: 2px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:  rgb(0, 0, 0);
+    position:relative;
+    top:0px;
+    right:15px;
+    z-index:2;
+    -webkit-transform:rotate(45deg);
+  }
+
+  .ladybug .back-leg{
+    width: 25px;
+    height: 2px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:  rgb(0, 0, 0);
+    position:relative;
+    top:-2px;
+    right:70px;
+    z-index:2;
+    -webkit-transform:rotate(45deg);
+  }
+
+  .branch .single-branch{
+    width: 25px;
+    height: 90px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:   rgb(93, 34, 9);
+    position:relative;
+    top:12px;
+    left:350px;
+    -webkit-transform:rotate(-45deg);
+  }
+
+  .branch .stem1{
+    width: 25px;
+    height: 2px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:  rgb(0, 0, 0);
+    position:relative;
+    top:-2px;
+    left:350px;
+    -webkit-transform:rotate(-60deg);
+  }
+
+  .branch .leaf1{
+    width: 20px;
+    height: 20px;
+    display:flex;
+    border-radius: 20px 20px 20px 10px;
+    flex-direction: column;
+    align-items: center;
+    background:  rgb(11, 167, 29);
+    position:relative;
+    top:-2px;
+    left:350px;
+    -webkit-transform:rotate(150deg);
+  }
+
+  .branch .stem2{
+    width: 25px;
+    height: 2px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:  rgb(0, 0, 0);
+    position:relative;
+    top:-45px;
+    left:393px;
+    -webkit-transform:rotate(145deg);
+  }
+
+  .branch .leaf2{
+    width: 20px;
+    height: 20px;
+    display:flex;
+    border-radius: 20px 20px 20px 10px;
+    flex-direction: column;
+    align-items: center;
+    background:  rgb(11, 167, 29);
+    position:relative;
+    top:-68px;
+    left:410px;
+    -webkit-transform:rotate(360deg);
+  }

@@ -1,0 +1,196 @@
+body {
+    background: white;
+  }
+
+.container{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:flex;
+}
+  
+.branch{  
+    width: 500px;
+    height: 35px;
+    background: rgb(93, 34, 9);
+    top:50%;
+    left:40%;
+    transform: translate(-50%,-50%);
+    position:absolute;
+    z-index:1;
+    top:135px;
+
+}
+
+.cardinal{
+    position: absolute;
+    left:100px;
+}
+  .cardinal .bird-body{
+    position: absolute;
+    top: -1px;
+    right:10px;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: red;
+    -webkit-transform:rotate(130deg);
+  }
+
+  .cardinal .bird-body .bird-head{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display:flex;
+    border-radius: 50px 50px 0 0;
+    flex-direction: row;
+    align-items: center;
+    background: black;
+    position:relative;
+   top:15px;
+   left:18px;
+   -webkit-transform:rotate(180deg);
+  }
+
+  .cardinal .bird-body .bird-head .eye{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+    position:relative;
+   top:-5px;
+   left:15px;
+  }
+.cardinal .wing{
+    position: absolute;
+    top: -1px;
+    right:10px;
+    transform: translate(-50%, -50%);
+    height: 70px;
+    width: 150px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgb(210, 5, 5);
+    -webkit-transform:rotate(140deg); 
+    top:10px;
+    right:68px;
+}
+.cardinal .tailwing1{
+    position: absolute;
+    top: -1px;
+    right:10px;
+    height: 30px;
+    width: 250px;
+    background-color: rgb(210, 5, 5);
+    -webkit-transform:rotate(120deg); 
+    top:100px;
+    right:68px;
+}
+
+.cardinal .tailwing2{
+    position: absolute;
+    top: -1px;
+    right:10px;
+    height: 30px;
+    width: 250px;
+    background-color: rgb(210, 5, 5);
+    -webkit-transform:rotate(100deg); 
+    top:150px;
+    right:68px;
+}
+
+.cardinal .leg1{
+    position: relative;
+    top: -1px;
+    right:10px;
+    height: 30px;
+    width: 5px;
+    background-color: rgb(219, 172, 4);
+    -webkit-transform:rotate(150deg); 
+    top:100px;
+    right:115px;
+}
+
+.cardinal .leg2{
+    position: relative;
+    top: -1px;
+    right:10px;
+    height: 30px;
+    width: 5px;
+    background-color: rgb(219, 172, 4);
+    -webkit-transform:rotate(150deg); 
+    top:70px;
+    right:95px;
+}
+
+.branch .single-branch{
+    width: 25px;
+    height: 90px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:   rgb(93, 34, 9);
+    position:relative;
+    top:12px;
+    left:350px;
+    -webkit-transform:rotate(-45deg);
+  }
+
+  .branch .stem1{
+    width: 25px;
+    height: 2px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:  rgb(0, 0, 0);
+    position:relative;
+    top:-2px;
+    left:350px;
+    -webkit-transform:rotate(-60deg);
+  }
+
+  .branch .leaf1{
+    width: 20px;
+    height: 20px;
+    display:flex;
+    border-radius: 20px 10px 20px 10px;
+    flex-direction: column;
+    align-items: center;
+    background:  rgb(11, 167, 29);
+    position:relative;
+    top:-2px;
+    left:350px;
+    -webkit-transform:rotate(150deg);
+  }
+
+  .branch .stem2{
+    width: 25px;
+    height: 2px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:  rgb(0, 0, 0);
+    position:relative;
+    top:-45px;
+    left:393px;
+    -webkit-transform:rotate(145deg);
+  }
+
+  .branch .leaf2{
+    width: 20px;
+    height: 20px;
+    display:flex;
+    border-radius: 20px 10px 20px 10px;
+    flex-direction: column;
+    align-items: center;
+    background:  rgb(11, 167, 29);
+    position:relative;
+    top:-68px;
+    left:410px;
+    -webkit-transform:rotate(360deg);
+  }
+

@@ -1,0 +1,220 @@
+body {
+    background: white;
+  }
+
+  .container{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:flex;
+}
+
+.mickey{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position:absolute;
+}
+.mickey .head{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    position:relative;
+  }
+
+  .mickey .left-ear{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    position:relative;
+    top:-260px;
+    left: 60px;
+  }
+
+  .mickey .right-ear{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    position:relative;
+    top:-250px;
+    left: 130px;
+  }
+
+  .mickey .faceshape1{
+    clip-path: ellipse(15px 30px);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:white;
+    position:relative;
+    right:70px;
+    top:30px;
+    -webkit-transform:rotate(190deg);
+  }
+
+  .mickey .faceshape2{
+    clip-path: ellipse(35px 50px);
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:white;
+    position:relative;
+    left:-27px;
+    top:-68px;
+    -webkit-transform:rotate(-5deg);
+  }
+
+  .mickey .faceshape3{
+    clip-path: ellipse(45px 50px);
+    width: 130px;
+    height: 120px;
+    border-radius: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:white;
+    position:relative;
+    left:35px;
+    top:-420px;
+    -webkit-transform:rotate(-130deg);
+  }
+
+  .mickey .faceshape4{
+    width: 90px;
+    height: 80px;
+    border-radius: 50%;
+    border:5px solid black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:white;
+    position:relative;
+    left:5px;
+    top:-270px;
+    -webkit-transform:rotate(-130deg);
+  }
+  .mickey .faceshape5{
+    width: 80px;
+    height: 40px;
+    border-radius: 50px 50px 0 0 ;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:white;
+    position:relative;
+    right:15px;
+    top:22px;
+    background:black;
+    -webkit-transform:rotate(-90deg);
+  }
+
+  .mickey .tongue{
+    width: 40px;
+    height: 22px;
+    border-radius: 30px 20px 30px 20px ;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background:white;
+    position:relative;
+    right:-10px;
+    top:2.5px;
+    background:red;
+    -webkit-transform:rotate(205deg);
+  }
+ 
+  .mickey .curve1{
+    transform: translate(-50%, -50%);
+    height: 90px;
+    width: 180px;
+    border-radius: 150px 150px 0 0;
+    background-color: green;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:white;
+    position:relative;
+    border-top: 8px solid black;
+    top:-510px;
+    right:40px;
+    -webkit-transform:rotate(-190deg);
+  }
+
+  .mickey .curve2{
+    transform: translate(-50%, -50%);
+    height: 35px;
+    width: 70px;
+    border-radius: 50px 50px 0 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:white;
+    position:relative;
+    border-top: 2px solid black;
+    top:-610px;
+    right:100px;
+    -webkit-transform:rotate(-10deg);
+  }
+  
+  .mickey .curve3{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:white;
+    position:relative;
+    top:-660px;
+    left:-60px;
+  }
+
+  .mickey .curve4{
+    height: 20px;
+    width: 40px;
+    border-radius: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    border-top: 6px solid black;
+    top:-675px;
+    left:40px;
+    -webkit-transform:rotate(-10deg);
+    z-index:1;
+  }
+
+  .mickey .nose{
+    clip-path: ellipse(45px 50px);
+    width: 40px;
+    height: 50px;
+    border-radius: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:black;
+    position:relative;
+    right:135px;
+    top:-720px;
+    -webkit-transform:rotate(-30deg);
+  }
+ 

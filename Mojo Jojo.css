@@ -1,0 +1,227 @@
+body {
+    background: white;
+  }
+
+  .container {
+    position:absolute;
+    top:10%;
+    left:30%;
+    transform: translate(-50%,-50%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.mojojojo {
+    position:relative;
+    top:255px;
+    left:185px;
+    transform: translate(-50%,-50%);
+    display:flex; 
+}
+
+.mojojojo-crown {
+    width: 140px;
+    height: 165px;
+    border-radius: 50px 50px 0px 0px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(150, 34, 182);
+    position:relative;
+    z-index:2;
+    top:55px;
+    left:520px;
+}
+
+.mojojojo-faceoutline {
+    width: 140px;
+    height: 200px;
+    border-radius: 0px 0px 50px 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    position:relative;
+    z-index:1;
+    top:100px;
+    left:320px;
+}
+
+.mojojojo-head { 
+    position: relative; 
+    width: 100px; 
+    height: 90px; 
+    top: 140px;
+    left:0px;
+    -webkit-transform:rotate(0deg);
+    z-index:1;
+    
+} 
+
+.mojojojo-head:before, .mojojojo-head:after { 
+    position: absolute; 
+    content: ""; 
+    left: 50px; 
+    top: -30px; 
+    width: 50px; 
+    height: 100px; 
+    background: rgb(187, 218, 75); 
+    border-radius: 30px 50px 0px 0px; 
+    transform: rotate(-45deg); 
+    transform-origin: 0 100%; 
+} 
+
+.mojojojo-head:after { 
+    left: 0; 
+    transform: rotate(45deg); 
+    transform-origin :100% 100%; 
+    border-radius: 50px 30px 0 0;
+}
+
+.mojojojo-jaw {
+    width:80px;
+    height:60px;
+    display:flex;
+    border-radius:50%;
+    flex-direction:column;
+    align-items:center;
+    position:relative;
+    background: rgb(187, 218, 75);
+    top:-25px;
+    left:10px;
+    z-index:1;
+}
+
+.mojojojo-forehead .mojojojo-lefteye{
+    width: 30px;
+    height:25px;
+    display:flex;
+    border-radius:50%;
+    flex-direction:column;
+    align-items:center;
+    position:relative;
+    background: rgb(255, 255, 255);
+    top:-5px;
+    left:5px;
+    transform: rotate(25deg);
+    z-index:1;
+}
+
+.mojojojo-forehead .mojojojo-righteye{
+    width:30px;
+    height:25px;
+    display:flex;
+    border-radius:50%;
+    flex-direction:row;
+    align-items:center;
+    position:relative;
+    background: rgb(255, 255, 255);
+    top:-30px;
+    left:65px;
+    transform:rotate(-25deg);
+    z-index:1;
+}
+
+.mojojojo-forehead .mojojojo-lefteye .mojojojo-lefteyeball{
+    width: 5px;
+    height:18px;
+    display:flex;
+    border-radius:50%;
+    flex-direction:column;
+    align-items:center;
+    position:relative;
+    background: rgb(0, 0, 0);
+    top:5px;
+    right:0px;
+    z-index:2; 
+    transform: rotate(330deg);
+}
+
+.mojojojo-forehead .mojojojo-righteye .mojojojo-righteyeball{
+    width: 5px;
+    height:18px;
+    display:flex;
+    border-radius:50%;
+    flex-direction:column;
+    align-items:center;
+    position:relative;
+    background: rgb(0, 0, 0);
+    top:0px;
+    right:-10px;
+    z-index:2; 
+    transform: rotate(30deg);
+}
+
+.mojojojo-leftear {
+    width: 30px;
+    height:25px;
+    display:flex;
+    border-radius:50%;
+    flex-direction:column;
+    align-items:center;
+    position:relative;
+    background: rgb(187, 218, 75);
+    top:230px;
+    left:355px;
+    transform: rotate(25deg);
+    z-index:1;
+}
+
+.mojojojo-rightear {
+    width: 30px;
+    height:25px;
+    display:flex;
+    border-radius:50%;
+    flex-direction:column;
+    align-items:center;
+    position:relative;
+    background: rgb(187, 218, 75);
+    top:230px;
+    left:485px;
+    transform: rotate(-25deg);
+    z-index:1;
+}
+
+.mojojojo-upperbody {
+    width: 80px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid #3498db;
+    margin: 100px auto;
+    position:relative;
+    top:-155px;
+    right:40px;
+    z-index:-2;
+   
+}
+
+.mojojojo-shoulder {
+    width: 300px;
+    height: 265px;
+    border-radius: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    position:absolute;
+    z-index:-2;
+    top:55px;
+    left:-105px;
+}
+
+.mojojojo-shoulder .shoulder-mask {
+    width: 260px;
+    height: 265px;
+    border-radius: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    position:absolute;
+    z-index:-2;
+    top:75px;
+    left:20px;
+}

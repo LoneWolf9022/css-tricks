@@ -1,0 +1,256 @@
+body {
+    background: white;
+  }
+
+.container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.winnie-head .winnie-forehead{
+    width: 220px;
+    height: 210px;
+    border-radius: 100px;
+    border: 2px solid black;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(251, 250, 81);
+    position:relative;
+   top:95px;
+   left:10px;
+  }
+
+  .winnie-head .winnie-cheeks{
+    width: 250px;
+    height: 130px;
+    border-radius: 100px 100px 70px 70px;
+    border: 2px solid black;
+    border-bottom:0px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(251, 250, 81);
+    position:relative;
+   top:25px;
+   left:-6px;
+   -webkit-transform:rotate(180deg);
+  }
+
+  .winnie-head .winnie-leftear{
+    width: 78px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid black;
+    border-bottom:0px;
+    border-right:0px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(251, 250, 81);
+    position:relative;
+   top:-275px;
+   left:-10px;
+  }
+
+  .winnie-head .winnie-rightear{
+    width: 78px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid black;
+    border-bottom:0px;
+    border-left:0px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(251, 250, 81);
+    position:relative;
+   top:-350px;
+   left:175px;
+  }
+
+  .winnie-head .winnie-lefteyebrow{
+    width: 30px;
+    height: 15px;
+    border-radius: 50%;
+    border: 4px solid black;
+    border-bottom:0px;
+    border-left:0px;
+    border-right:0px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(251, 250, 81);
+    position:relative;
+   top:-343px;
+   left:165px;
+   -webkit-transform:rotate(30deg);
+  }
+
+  .winnie-head .winnie-righteyebrow{
+    width: 30px;
+    height: 15px;
+    border-radius: 50%;
+    border: 4px solid black;
+    border-bottom:0px;
+    border-right:0px;
+    border-left: 0px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(251, 250, 81);
+    position:relative;
+   top:-363px;
+   left:45px;
+   -webkit-transform:rotate(-30deg);
+  }
+
+  .winnie-head .winnie-lefteye {
+    width: 22px;
+    height: 18px;
+    border-radius: 50%;
+    background: black;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    position:relative;
+   top:-323px;
+   left:60px;
+   -webkit-transform:rotate(90deg);
+  }
+
+  .winnie-head .winnie-righteye {
+    width: 22px;
+    height: 18px;
+    border-radius: 50%;
+    background: black;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    position:relative;
+   top:-341px;
+   left:160px;
+   -webkit-transform:rotate(90deg);
+  }
+
+  .winnie-head .winnie-nose{
+    width: 40px;
+    height: 35px;
+    border-radius: 40px 40px 50px 50px;
+    background: black;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    position:relative;
+   top:-335px;
+   left:100px;
+   z-index:2;
+  }
+
+  .winnie-head .winnie-smile{
+    width: 100px;
+    height: 75px;
+    border-radius: 50%;
+    border: 4px solid black;
+    border-bottom:0px;
+    border-left:0px;
+    border-right:0px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(251, 250, 81);
+    position:relative;
+    top:-373px;
+    left:70px;
+    -webkit-transform:rotate(180deg);
+    z-index:1;
+  }
+  
+  .bg .winnie-leftpaw {
+    width: 78px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid black;
+    
+    border-right:0px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(251, 250, 81);
+    position:relative;
+   top:-31px;
+   left:-50px;
+   -webkit-transform:rotate(-100deg);
+  }
+
+  .bg .winnie-rightpaw {
+    width: 78px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid black;
+    border-left:0px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(251, 250, 81);
+    position:relative;
+   top:-31px;
+   left:44px;
+   -webkit-transform:rotate(100deg);
+  }
+
+  .bg{
+    width: 400px;
+    height: 75px;
+    border: 4px solid black;
+    border-right:0px;
+    border-left:0px;
+    border-bottom:0px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    background: rgb(255, 255, 255);
+    position: relative;
+    top:30px;
+    left:-335px;
+    z-index:2;
+  }
+
+  .bg .winnie-lefthand{
+    width: 78px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    border-bottom:0px;
+    border-right:0px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(251, 250, 81);
+    position:relative;
+   top:-55px;
+   left:0px;
+   -webkit-transform:rotate(-20deg);
+  }
+
+  .bg .winnie-righthand{
+    width: 78px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    border-bottom:0px;
+    border-left:0px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(251, 250, 81);
+    position:relative;
+   top:-55px;
+   left:150px;
+   -webkit-transform:rotate(20deg);
+  }
